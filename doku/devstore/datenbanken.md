@@ -14,10 +14,10 @@
     - 0    - int   - X-Position
     - 1    - int   - Y-Position
   - "name" - str   - Name der App
-  - "pic"  - lst   - position des Bildes
+  - "pic"  - lst:2 - position des Bildes
     - 0    - bol   - ist es vorinstalliert (-> im ./assets folder)
     - 1    - str   - der Name der Datei
-  - "code" - lst   - position des Codes
+  - "code" - lst:2 - position des Codes
     - 0    - bol   - ist es vorinstalliert (-> im ./assets folder)
     - 1    - str   - der Name der Datei
 ```
