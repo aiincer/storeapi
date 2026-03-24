@@ -17,7 +17,5 @@
   - "pic"  - lst:2 - position des Bildes
     - 0    - bol   - ist es vorinstalliert (-> im ./assets folder)
     - 1    - str   - der Name der Datei
-  - "code" - lst:2 - position des Codes
-    - 0    - bol   - ist es vorinstalliert (-> im ./assets folder)
-    - 1    - str   - der Name der Datei
+  - "code" - str   - position des Codes
 ```
