@@ -35,6 +35,7 @@
       - "bg-color"   - str+ - (+: hex) Hintergrungfarbe
       - "txt-clolor" - str+ - (+: hex) Schriftfarbe
     - "code"         - str+ - (+: url) der link zum code
+    - "pic"          - str+ - (+: url -> png) der link zum Bild der App
     - "data"         - jso  - inhalt von app-übersicht mit *1
 ```
 
