@@ -34,4 +34,19 @@
       - "text"       - str  - die Buchstaben auf dem logo
       - "bg-color"   - str+ - (+: hex) Hintergrungfarbe
       - "txt-clolor" - str+ - (+: hex) Schriftfarbe
+    - "code"         - str+ - (+: url) der link zum code
+    - "data"         - jso  - inhalt von app-übersicht mit *1
+```
+
+# inhalte
+## apps..data
+```
+{
+  <name>: {
+    "pos": [0, 0],
+    "name" : <name>,
+    "pic": [false, "<name>.png"],
+    "code": "code/<name>/<name>.py"
+  }
+}
 ```
